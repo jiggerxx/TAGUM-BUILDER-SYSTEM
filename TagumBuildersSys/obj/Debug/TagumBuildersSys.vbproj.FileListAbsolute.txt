@@ -1,0 +1,265 @@
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.pdb
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.xml
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addaccounttitle.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addcashcheckdisbursement.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpettycash.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpurchaseorder.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursement.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursementprinting.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyday.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbymonth.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyrange.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementedit.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printcashcheckdisbursement.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Form1.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Resources.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycash.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyday.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbymonth.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyrangey.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprinting.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpettycash.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpurchaseorders.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseorders.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprinting.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingdaily.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingmonthly.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingrangey.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.reportviewer.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewdisburseedits1.resources
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.GenerateResource.Cache
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+C:\Users\Eliel C. Morre\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addaccounttitle.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addcashcheckdisbursement.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpettycash.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpurchaseorder.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursement.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursementprinting.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyday.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbymonth.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyrange.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementedit.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printcashcheckdisbursement.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Form1.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Resources.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycash.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyday.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbymonth.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyrangey.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprinting.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpettycash.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpurchaseorders.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseorders.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprinting.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingdaily.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingmonthly.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingrangey.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.reportviewer.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewdisburseedits1.resources
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.GenerateResource.Cache
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disburseitemsviewer.resources
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbprojResolveAssemblyReference.cache
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceForm.resources
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPCtlXLib.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPDevXLib.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPEngXLib.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPShrXLib.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.ResolveComReference.cache
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceCaptureForm.resources
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.payslip.resources
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.xml
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Pixe\Documents\Visual Studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.employeesform.resources
+C:\Users\Pixe\documents\visual studio 2013\Projects\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addEmployeeForm.resources
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPCtlXLib.dll
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPDevXLib.dll
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPEngXLib.dll
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPShrXLib.dll
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.ResolveComReference.cache
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.pdb
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.xml
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.dll
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Fabric.Plugin.dll
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.xml
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbprojResolveAssemblyReference.cache
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addaccounttitle.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addcashcheckdisbursement.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addEmployeeForm.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpettycash.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpurchaseorder.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceCaptureForm.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceform.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursement.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursementprinting.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disburseitemsviewer.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyday.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbymonth.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyrange.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementedit.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.employeesform.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.payslip.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printcashcheckdisbursement.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Form1.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Resources.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycash.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyday.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbymonth.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyrangey.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprinting.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpettycash.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpurchaseorders.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseorders.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprinting.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingdaily.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingmonthly.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingrangey.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.reportviewer.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewdisburseedits1.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.GenerateResource.Cache
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Main.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Register.resources
+E:\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.searchemployee.resources
+E:\TagumBuildersSys\TagumBuildersSys\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPCtlXLib.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPDevXLib.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPEngXLib.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPShrXLib.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.ResolveComReference.cache
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.xml
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbprojResolveAssemblyReference.cache
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addaccounttitle.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addcashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addEmployeeForm.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpettycash.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpurchaseorder.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceCaptureForm.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceform.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursementprinting.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disburseitemsviewer.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyday.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbymonth.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyrange.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementedit.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.employeesform.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Form1.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.payslip.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printcashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Main.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Resources.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycash.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyday.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbymonth.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyrangey.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprinting.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpettycash.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpurchaseorders.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseorders.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprinting.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingdaily.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingmonthly.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingrangey.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Register.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.reportviewer.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.searchemployee.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewdisburseedits1.resources
+C:\Users\Pixe\Desktop\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.GenerateResource.Cache
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPCtlXLib.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPDevXLib.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPEngXLib.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\Interop.DPFPShrXLib.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.ResolveComReference.cache
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.pdb
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF5.xml
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbprojResolveAssemblyReference.cache
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addaccounttitle.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addcashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addEmployeeForm.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpettycash.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.addpurchaseorder.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceCaptureForm.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.attendanceform.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.cashcheckdisbursementprinting.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disburseitemsviewer.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyday.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbymonth.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementbyrange.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.disbursementedit.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.employeesform.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Form1.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.payslip.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printcashcheckdisbursement.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Main.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Resources.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycash.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyday.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbymonth.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprintbyrangey.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.pettycashprinting.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpettycash.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.printpurchaseorders.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseorders.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprinting.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingdaily.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingmonthly.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.purchaseprintingrangey.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.Register.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.reportviewer.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.searchemployee.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewdisburseedits1.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.GenerateResource.Cache
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.viewreceipt.resources
+C:\Users\Pixe\Desktop\RAR's\TagumBuildersSys\TagumBuildersSys\TagumBuildersSys\obj\Debug\TagumBuildersSys.leaveform.resources
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\bin\Debug\TagumBuildersSys.exe.config
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\Interop.DPFPCtlXLib.dll
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\Interop.DPFPDevXLib.dll
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\Interop.DPFPEngXLib.dll
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\Interop.DPFPShrXLib.dll
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\TagumBuildersSys.vbproj.ResolveComReference.cache
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\TagumBuildersSys.exe
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\TagumBuildersSys.xml
+C:\Users\Pixe\Documents\GitHub\TAGUM-BUILDER-SYSTEM\TagumBuildersSys\obj\Debug\TagumBuildersSys.pdb

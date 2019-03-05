@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B512CB58-7DCB-478D-94AB-3EF00746D832}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TagumBuildersSys.My.MyApplication</StartupObject>
+    <RootNamespace>TagumBuildersSys</RootNamespace>
+    <AssemblyName>TagumBuildersSys</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TagumBuildersSys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TagumBuildersSys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tbcc_small_tOg_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\Pixe\Desktop\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CRVsPackageLib, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DPFPDevNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=696774c42ee28c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\DPFPDevNET\1.6.1.0__696774c42ee28c57\DPFPDevNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPEngNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=7fe76e7adf19964b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\DPFPEngNET\1.6.1.0__7fe76e7adf19964b\DPFPEngNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPGuiNet, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d4f4a0bd9c559145, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\DPFPGuiNET\1.6.1.0__d4f4a0bd9c559145\DPFPGuiNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPShrNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d902fe275a8d6cf2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\DPFPShrNET\1.6.1.0__d902fe275a8d6cf2\DPFPShrNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPVerNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=4de0a9c4dcc83984, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\DPFPVerNET\1.6.1.0__4de0a9c4dcc83984\DPFPVerNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySQL.Data.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySQL.Data.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Fabric.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DPFPCtlXLib" />
+    <Import Include="DPFPDevXLib" />
+    <Import Include="DPFPEngXLib" />
+    <Import Include="DPFPShrXLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Sql" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Data.SqlTypes" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addaccounttitle.Designer.vb">
+      <DependentUpon>addaccounttitle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addaccounttitle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addcashcheckdisbursement.Designer.vb">
+      <DependentUpon>addcashcheckdisbursement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addcashcheckdisbursement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmployeeForm.Designer.vb">
+      <DependentUpon>addEmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addEmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addpettycash.Designer.vb">
+      <DependentUpon>addpettycash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addpettycash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addpurchaseorder.Designer.vb">
+      <DependentUpon>addpurchaseorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addpurchaseorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendanceCaptureForm.Designer.vb">
+      <DependentUpon>attendanceCaptureForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="attendanceCaptureForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendanceEnrollmentForm.Designer.vb">
+      <DependentUpon>attendanceEnrollmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="attendanceEnrollmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendanceform.Designer.vb">
+      <DependentUpon>attendanceform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="attendanceform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashcheckdisbursement.Designer.vb">
+      <DependentUpon>cashcheckdisbursement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cashcheckdisbursement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashcheckdisbursementprinting.Designer.vb">
+      <DependentUpon>cashcheckdisbursementprinting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cashcheckdisbursementprinting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="disburseitemsviewer.Designer.vb">
+      <DependentUpon>disburseitemsviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="disburseitemsviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="disbursementbyday.Designer.vb">
+      <DependentUpon>disbursementbyday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="disbursementbyday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="disbursementbyday2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>disbursementbyday2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="disbursementbymonth.Designer.vb">
+      <DependentUpon>disbursementbymonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="disbursementbymonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="disbursementbymonth2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>disbursementbymonth2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="disbursementbyrange.Designer.vb">
+      <DependentUpon>disbursementbyrange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="disbursementbyrange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="disbursementbyrange2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>disbursementbyrange2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="disbursementedit.Designer.vb">
+      <DependentUpon>disbursementedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="disbursementedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employeesform.Designer.vb">
+      <DependentUpon>employeesform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="employeesform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncryptDecryptVB.vb" />
+    <Compile Include="Form1.designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leaveform.Designer.vb">
+      <DependentUpon>leaveform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="leaveform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payslip.Designer.vb">
+      <DependentUpon>payslip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="payslip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printpayslip.vb">
+      <DependentUpon>printpayslip.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="printcashcheckdisbursement.Designer.vb">
+      <DependentUpon>printcashcheckdisbursement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printcashcheckdisbursement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printcashcheckdisbursement2.vb">
+      <DependentUpon>printcashcheckdisbursement2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="purchaseprintingrangey2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>purchaseprintingrangey2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBfunctions.vb" />
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pettycash.Designer.vb">
+      <DependentUpon>pettycash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pettycash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pettycashprint.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pettycashprint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="pettycashprintbyday.Designer.vb">
+      <DependentUpon>pettycashprintbyday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pettycashprintbyday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pettycashprintbymonth.Designer.vb">
+      <DependentUpon>pettycashprintbymonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pettycashprintbymonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pettycashprintbyrange.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pettycashprintbyrange.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="pettycashprintbyrangey.Designer.vb">
+      <DependentUpon>pettycashprintbyrangey.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pettycashprintbyrangey.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pettycashprintdaily.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pettycashprintdaily.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="pettycashprinting.Designer.vb">
+      <DependentUpon>pettycashprinting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pettycashprinting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pettycashprintmonthly.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pettycashprintmonthly.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="printpettycash.Designer.vb">
+      <DependentUpon>printpettycash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printpettycash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printpurchaseorders.Designer.vb">
+      <DependentUpon>printpurchaseorders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printpurchaseorders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseorderprint.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>purchaseorderprint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="purchaseorders.Designer.vb">
+      <DependentUpon>purchaseorders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseorders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseprinting.Designer.vb">
+      <DependentUpon>purchaseprinting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseprinting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseprintingdaily.Designer.vb">
+      <DependentUpon>purchaseprintingdaily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseprintingdaily.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseprintingdaily2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>purchaseprintingdaily2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="purchaseprintingmonthly.Designer.vb">
+      <DependentUpon>purchaseprintingmonthly.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseprintingmonthly.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseprintingmonthly2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>purchaseprintingmonthly2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="purchaseprintingrangey.Designer.vb">
+      <DependentUpon>purchaseprintingrangey.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseprintingrangey.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportviewer.Designer.vb">
+      <DependentUpon>reportviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchemployee.Designer.vb">
+      <DependentUpon>searchemployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchemployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VBFunctions.vb" />
+    <Compile Include="viewdisburseedits.Designer.vb">
+      <DependentUpon>viewdisburseedits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewdisburseedits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewreceipt.designer.vb">
+      <DependentUpon>viewreceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewreceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="addaccounttitle.resx">
+      <DependentUpon>addaccounttitle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addcashcheckdisbursement.resx">
+      <DependentUpon>addcashcheckdisbursement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addEmployeeForm.resx">
+      <DependentUpon>addEmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addpettycash.resx">
+      <DependentUpon>addpettycash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addpurchaseorder.resx">
+      <DependentUpon>addpurchaseorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendanceCaptureForm.resx">
+      <DependentUpon>attendanceCaptureForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendanceform.resx">
+      <DependentUpon>attendanceform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashcheckdisbursement.resx">
+      <DependentUpon>cashcheckdisbursement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashcheckdisbursementprinting.resx">
+      <DependentUpon>cashcheckdisbursementprinting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disburseitemsviewer.resx">
+      <DependentUpon>disburseitemsviewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbyday.resx">
+      <DependentUpon>disbursementbyday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbyday2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>disbursementbyday2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbymonth.resx">
+      <DependentUpon>disbursementbymonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbymonth2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>disbursementbymonth2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbyrange.resx">
+      <DependentUpon>disbursementbyrange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementbyrange2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>disbursementbyrange2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="disbursementedit.resx">
+      <DependentUpon>disbursementedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employeesform.resx">
+      <DependentUpon>employeesform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="leaveform.resx">
+      <DependentUpon>leaveform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payslip.resx">
+      <DependentUpon>payslip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printpayslip.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>printpayslip.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printcashcheckdisbursement.resx">
+      <DependentUpon>printcashcheckdisbursement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printcashcheckdisbursement2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>printcashcheckdisbursement2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingrangey2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>purchaseprintingrangey2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycash.resx">
+      <DependentUpon>pettycash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pettycashprint.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintbyday.resx">
+      <DependentUpon>pettycashprintbyday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintbymonth.resx">
+      <DependentUpon>pettycashprintbymonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintbyrange.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pettycashprintbyrange.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintbyrangey.resx">
+      <DependentUpon>pettycashprintbyrangey.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintdaily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pettycashprintdaily.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprinting.resx">
+      <DependentUpon>pettycashprinting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pettycashprintmonthly.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pettycashprintmonthly.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printpettycash.resx">
+      <DependentUpon>printpettycash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printpurchaseorders.resx">
+      <DependentUpon>printpurchaseorders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseorderprint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>purchaseorderprint.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseorders.resx">
+      <DependentUpon>purchaseorders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprinting.resx">
+      <DependentUpon>purchaseprinting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingdaily.resx">
+      <DependentUpon>purchaseprintingdaily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingdaily2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>purchaseprintingdaily2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingmonthly.resx">
+      <DependentUpon>purchaseprintingmonthly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingmonthly2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>purchaseprintingmonthly2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseprintingrangey.resx">
+      <DependentUpon>purchaseprintingrangey.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportviewer.resx">
+      <DependentUpon>reportviewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchemployee.resx">
+      <DependentUpon>searchemployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewdisburseedits.resx">
+      <DependentUpon>viewdisburseedits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewreceipt.resx">
+      <DependentUpon>viewreceipt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DPFPCtlXLib">
+      <Guid>{B49E66FF-6927-4378-9685-937F14679ADD}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DPFPDevXLib">
+      <Guid>{BCDEF2D4-F788-4A38-B0C2-C97B3F9FB791}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DPFPEngXLib">
+      <Guid>{A9EFB3F6-A8C8-4684-841E-4330973057C6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DPFPShrXLib">
+      <Guid>{B8FAC44B-A9C5-478E-A9BF-566419996CAE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addext30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\released30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Material Icons_e147%280%29.ico" />
+    <None Include="Resources\printer %281%29.png" />
+    <Content Include="tbcc_small_tOg_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
