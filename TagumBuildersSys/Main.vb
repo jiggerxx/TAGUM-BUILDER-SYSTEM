@@ -23,8 +23,8 @@ Public Class Main
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        attendanceform.Show()
-        Me.Hide()
+        'attendanceform.Show()
+        ' Me.Hide()
     End Sub
 
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint

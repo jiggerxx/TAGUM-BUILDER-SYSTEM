@@ -51,7 +51,7 @@
                 End With
 
             Catch ex As Exception
-                'MessageBox.Show(ex.Message + "Account Not Found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show(ex.Message + "Account Not Found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 loginusername.Clear()
                 loginpassword.Clear()
             End Try

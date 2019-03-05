@@ -4,7 +4,7 @@ Imports System.IO
 
 Public Class employeesform
 
-    Public dbconn As New MySqlConnection("server=localhost;userid=root;password=;database=tgdb2")
+    Public dbconn As New MySqlConnection("server=192.168.2.6;userid=;password=;database=tgdb2")
     Public conn As String = "Data Source=localhost; Database=tgdb2; User ID =root; Password=;"
     Public cmd As New MySqlCommand
     Public dr As MySqlDataReader

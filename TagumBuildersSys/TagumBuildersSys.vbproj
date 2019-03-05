@@ -235,24 +235,6 @@
     <Compile Include="addpurchaseorder.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="attendanceCaptureForm.Designer.vb">
-      <DependentUpon>attendanceCaptureForm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="attendanceCaptureForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="attendanceEnrollmentForm.Designer.vb">
-      <DependentUpon>attendanceEnrollmentForm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="attendanceEnrollmentForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="attendanceform.Designer.vb">
-      <DependentUpon>attendanceform.vb</DependentUpon>
-    </Compile>
-    <Compile Include="attendanceform.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="cashcheckdisbursement.Designer.vb">
       <DependentUpon>cashcheckdisbursement.vb</DependentUpon>
     </Compile>
@@ -554,12 +536,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="addpurchaseorder.resx">
       <DependentUpon>addpurchaseorder.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="attendanceCaptureForm.resx">
-      <DependentUpon>attendanceCaptureForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="attendanceform.resx">
-      <DependentUpon>attendanceform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cashcheckdisbursement.resx">
       <DependentUpon>cashcheckdisbursement.vb</DependentUpon>
