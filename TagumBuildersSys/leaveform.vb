@@ -2,7 +2,6 @@
 
 Public Class leaveform
 
-
     Private Sub leaveform_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         Main.Enabled = True
     End Sub
@@ -28,26 +27,66 @@ Public Class leaveform
         dept.Text = table.Rows(0)("department").ToString()
     End Sub
 
- 
-    Private Sub DateTimePicker2_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker2.ValueChanged
-        duration()
-    End Sub
 
-    Sub duration()
-        Dim date1 As String = DateTimePicker1.Value.ToString("yyyy/MM/dd")
-        Dim date2 As String = DateTimePicker1.Value.ToString("yyyy/MM/dd")
+    Private Sub DateTimePicker2_ValueChanged(sender As Object, e As EventArgs) Handles dateofresume.ValueChanged
+        Dim Borrow As DateTime = Convert.ToDateTime(dateofleave.Text)
+        Dim Back As DateTime = Convert.ToDateTime(dateofresume.Text)
 
-        Dim differ As Integer = DateDiff(DateInterval.Day, CDate(date1), CDate(date2))
-
-        If differ <= 0 Then
-            noofdays.Text = 0
+        Dim CountDays As TimeSpan = Back.Subtract(Borrow)
+        Dim TotalDays = Convert.ToInt32(CountDays.Days)
+        If Convert.ToInt32(CountDays.Days) >= 0 Then
+            Label14.Text = TotalDays
         Else
-            noofdays.Text = differ
+            MsgBox("sample", MsgBoxStyle.Critical, "notice")
+
         End If
+    End Sub
+
+
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles dateofleave.ValueChanged
 
     End Sub
 
-    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
-        duration()
+    Private Sub Label14_Click(sender As Object, e As EventArgs) Handles Label14.Click
+
+
+
+    End Sub
+
+    Private Sub CheckedListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Try
+
+            checkstate()
+            dbconn.Open()
+            With cmd
+                .Connection = dbconn
+                .CommandText = "INSERT INTO leaveforms (@id, @emp_id, @dateofleave, @dateofresume, @prepby,@checkedby)VALUES(formid.Text ,empid.Text, dateofleave.Text ,dateofresume.Text, prepby.Text , checkedby.Text)"
+                .ExecuteNonQuery()
+
+
+            End With
+        Catch ex As Exception
+            MessageBox.Show("Not Save! " + vbNewLine + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+        dbconn.Close()
+        dbconn.Dispose()
+
+
+    End Sub
+
+    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
+
+    End Sub
+
+    Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton3.CheckedChanged
+
     End Sub
 End Class

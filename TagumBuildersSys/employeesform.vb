@@ -4,7 +4,7 @@ Imports System.IO
 
 Public Class employeesform
 
-    Public dbconn As New MySqlConnection("server=192.168.2.6;userid=;password=;database=tgdb2")
+    Public dbconn As New MySqlConnection("server=192.168.2.5;userid=;password=;database=tgdb2")
     Public conn As String = "Data Source=localhost; Database=tgdb2; User ID =root; Password=;"
     Public cmd As New MySqlCommand
     Public dr As MySqlDataReader
@@ -143,5 +143,9 @@ Public Class employeesform
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         leaveform.Show()
         Main.Enabled = False
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
     End Sub
 End Class
