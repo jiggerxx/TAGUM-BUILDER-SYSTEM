@@ -62,22 +62,43 @@ Public Class leaveform
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Try
 
-            checkstate()
-            dbconn.Open()
+
+
+
+       
+
+            Try
+
+                checkstate()
+                dbconn.Open()
             With cmd
-                .Connection = dbconn
-                .CommandText = "INSERT INTO leaveforms (@id, @emp_id, @dateofleave, @dateofresume, @prepby,@checkedby)VALUES(formid.Text ,empid.Text, dateofleave.Text ,dateofresume.Text, prepby.Text , checkedby.Text)"
-                .ExecuteNonQuery()
+                If prepby.Text IsNot "".Trim And checkedby.Text IsNot "".Trim And dateofleave.Text IsNot "".Trim And dateofresume.Text IsNot "".Trim Then
+                    .Parameters.Clear()
+                    .Parameters.AddWithValue("@dateofleave", dateofleave.Text)
+                    .Parameters.AddWithValue("@dateofresume", dateofresume.Text)
+                    .Parameters.AddWithValue("@prepby", prepby.Text)
+                    .Parameters.AddWithValue("@checkedby", checkedby.Text)
 
+                    MessageBox.Show(" Request send!", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+
+                    .Connection = dbconn
+                    .CommandText = "INSERT INTO leaveforms (emp_id, dateofleave, dateofresume, prepby,checkedby,reasons)VALUES('" & empid.Text & "','" & dateofleave.Text & "','" & dateofresume.Text & "','" & prepby.Text & "','" & checkedby.Text & "','" & reasons.Text & "')"
+                    .ExecuteNonQuery()
+                Else
+                    MsgBox("Please do not leave any blank spaces!", MsgBoxStyle.Critical)
+
+                End If
 
             End With
-        Catch ex As Exception
-            MessageBox.Show("Not Save! " + vbNewLine + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-        dbconn.Close()
-        dbconn.Dispose()
+            Catch ex As Exception
+                MessageBox.Show("Not Save! " + vbNewLine + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+
+
+       
+
 
 
     End Sub

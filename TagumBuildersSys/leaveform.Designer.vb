@@ -42,7 +42,7 @@ Partial Class leaveform
         Me.formid = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.reasons = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.empname = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -244,13 +244,13 @@ Partial Class leaveform
         Me.Label10.TabIndex = 19
         Me.Label10.Text = "SPECIFY REASON OF ABSENCE:"
         '
-        'RichTextBox1
+        'reasons
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(17, 277)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(629, 86)
-        Me.RichTextBox1.TabIndex = 20
-        Me.RichTextBox1.Text = ""
+        Me.reasons.Location = New System.Drawing.Point(17, 277)
+        Me.reasons.Name = "reasons"
+        Me.reasons.Size = New System.Drawing.Size(629, 86)
+        Me.reasons.TabIndex = 20
+        Me.reasons.Text = ""
         '
         'Button1
         '
@@ -412,7 +412,7 @@ Partial Class leaveform
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.empname)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.reasons)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.formid)
         Me.Controls.Add(Me.Label12)
@@ -464,7 +464,7 @@ Partial Class leaveform
     Friend WithEvents formid As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
+    Friend WithEvents reasons As System.Windows.Forms.RichTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents empname As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
