@@ -57,7 +57,7 @@ Public Class leaveform
 
     End Sub
 
-    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -73,18 +73,20 @@ Public Class leaveform
                 checkstate()
                 dbconn.Open()
             With cmd
-                If prepby.Text IsNot "".Trim And checkedby.Text IsNot "".Trim And dateofleave.Text IsNot "".Trim And dateofresume.Text IsNot "".Trim Then
+                If prepby.Text IsNot "".Trim And checkedby.Text IsNot "".Trim And dateofleave.Text IsNot "".Trim And dateofresume.Text IsNot "".Trim And typeofleave.Text IsNot "" Then
                     .Parameters.Clear()
                     .Parameters.AddWithValue("@dateofleave", dateofleave.Text)
                     .Parameters.AddWithValue("@dateofresume", dateofresume.Text)
+                    .Parameters.AddWithValue("@typeofleave", typeofleave.Text)
                     .Parameters.AddWithValue("@prepby", prepby.Text)
                     .Parameters.AddWithValue("@checkedby", checkedby.Text)
 
                     MessageBox.Show(" Request send!", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    Me.Hide()
 
 
                     .Connection = dbconn
-                    .CommandText = "INSERT INTO leaveforms (emp_id, dateofleave, dateofresume, prepby,checkedby,reasons)VALUES('" & empid.Text & "','" & dateofleave.Text & "','" & dateofresume.Text & "','" & prepby.Text & "','" & checkedby.Text & "','" & reasons.Text & "')"
+                    .CommandText = "INSERT INTO leaveforms (emp_id, dateofleave, dateofresume,typeofleave, prepby,checkedby,reasons)VALUES('" & empid.Text & "','" & dateofleave.Text & "','" & dateofresume.Text & "','" & typeofleave.Text & "','" & prepby.Text & "','" & checkedby.Text & "','" & reasons.Text & "')"
                     .ExecuteNonQuery()
                 Else
                     MsgBox("Please do not leave any blank spaces!", MsgBoxStyle.Critical)
@@ -107,7 +109,9 @@ Public Class leaveform
 
     End Sub
 
-    Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton3.CheckedChanged
+    Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+
 End Class

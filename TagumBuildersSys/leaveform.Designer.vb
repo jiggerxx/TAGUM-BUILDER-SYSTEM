@@ -53,11 +53,7 @@ Partial Class leaveform
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Cachedprintcashcheckdisbursement21 = New TagumBuildersSys.Cachedprintcashcheckdisbursement2()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.typeofleave = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -114,7 +110,7 @@ Partial Class leaveform
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(576, 60)
+        Me.Label6.Location = New System.Drawing.Point(516, 100)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(43, 25)
         Me.Label6.TabIndex = 6
@@ -154,7 +150,7 @@ Partial Class leaveform
         '
         Me.sl.AutoSize = True
         Me.sl.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sl.Location = New System.Drawing.Point(597, 60)
+        Me.sl.Location = New System.Drawing.Point(537, 100)
         Me.sl.Name = "sl"
         Me.sl.Size = New System.Drawing.Size(20, 25)
         Me.sl.TabIndex = 10
@@ -333,76 +329,22 @@ Partial Class leaveform
         Me.Label14.TabIndex = 35
         Me.Label14.Text = "0"
         '
-        'RadioButton1
+        'typeofleave
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(475, 100)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(155, 29)
-        Me.RadioButton1.TabIndex = 36
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "SICK LEAVE"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(475, 233)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(120, 29)
-        Me.RadioButton2.TabIndex = 39
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "OTHERS"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton3.Location = New System.Drawing.Point(475, 205)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(142, 29)
-        Me.RadioButton3.TabIndex = 40
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "VACATION"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton4.Location = New System.Drawing.Point(475, 135)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(163, 29)
-        Me.RadioButton4.TabIndex = 41
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "EMERGENCY"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton5.Location = New System.Drawing.Point(475, 170)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(269, 29)
-        Me.RadioButton5.TabIndex = 42
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "MATERNITY/PATERNITY"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.typeofleave.FormattingEnabled = True
+        Me.typeofleave.Items.AddRange(New Object() {"SICK LEAVE", "EMERGENCY", "MATERNITY/PATERNITY", "VACATION", "OTHERS"})
+        Me.typeofleave.Location = New System.Drawing.Point(521, 147)
+        Me.typeofleave.Name = "typeofleave"
+        Me.typeofleave.Size = New System.Drawing.Size(208, 30)
+        Me.typeofleave.TabIndex = 36
+        Me.typeofleave.Text = "Select Type of Leave"
         '
         'leaveform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(766, 480)
-        Me.Controls.Add(Me.RadioButton5)
-        Me.Controls.Add(Me.RadioButton4)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.typeofleave)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.empid)
         Me.Controls.Add(Me.Label15)
@@ -475,9 +417,5 @@ Partial Class leaveform
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Cachedprintcashcheckdisbursement21 As TagumBuildersSys.Cachedprintcashcheckdisbursement2
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
+    Friend WithEvents typeofleave As System.Windows.Forms.ComboBox
 End Class
