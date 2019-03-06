@@ -62,11 +62,10 @@ Public Class leaveform
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Try
 
-            Try
-
-                checkstate()
-                dbconn.Open()
+            checkstate()
+            dbconn.Open()
             With cmd
                 If prepby.Text IsNot "".Trim And checkedby.Text IsNot "".Trim And dateofleave.Text IsNot "".Trim And dateofresume.Text IsNot "".Trim And typeofleave.Text IsNot "" Then
                     .Parameters.Clear()
@@ -76,7 +75,7 @@ Public Class leaveform
                     .Parameters.AddWithValue("@prepby", prepby.Text)
                     .Parameters.AddWithValue("@checkedby", checkedby.Text)
 
-                    MessageBox.Show(" Request send!", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    MessageBox.Show(" REQUEST SEND!", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     Me.Hide()
 
 
@@ -89,15 +88,9 @@ Public Class leaveform
                 End If
 
             End With
-            Catch ex As Exception
-                MessageBox.Show("Not Save! " + vbNewLine + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End Try
-
-
-       
-
-
-
+        Catch ex As Exception
+            MessageBox.Show("Not Save! " + vbNewLine + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
